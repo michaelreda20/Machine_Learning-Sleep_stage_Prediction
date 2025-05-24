@@ -1,24 +1,25 @@
-# Machine_Learning-Sleep_stage_Prediction
+# Sleep Stage Prediction from Wearable Sensor Data
 
-# Sleep Stage Prediction Project
+## Overview
 
-## Project Description
-This project aims to predict sleep stages (light, deep, REM) using non-invasive wearable sensor data, including heart rate, acceleration, and step count. By leveraging machine learning models, the system provides a simpler alternative to clinical polysomnography (PSG). The dataset used is the **Sleep-Accelerometry Dataset**, and the workflow includes data preprocessing, feature engineering, and model evaluation.
+This project aims to predict sleep stages using non-invasive data collected from wearable sensors. By analyzing physiological signals like **heart rate**, **step rate**, and **acceleration**, the project demonstrates the feasibility of building a robust machine learning model to classify sleep stages, providing a practical alternative to traditional, clinical polysomnography (PSG).
 
-## Key Features
-- **Data Synchronization**: Temporal alignment of multi-sensor data.
-- **Feature Engineering**: Derived features like acceleration magnitude and rolling statistics.
-- **Imbalance Correction**: SMOTE for addressing class imbalance.
-- **Model Comparison**: Evaluated Random Forest, KNN, CatBoost, SVM, and others.
-- **High Accuracy**: Achieved **85.95% accuracy** (Random Forest) using all features.
+## Main Features
 
-## Installation
-### Prerequisites
-- Python 3.7+
-- Libraries:  
-  ```bash
-  pip install scikit-learn imbalanced-learn pandas numpy catboost
-  python3 sleep_Predict.py
+- Data preprocessing with synchronization, cleaning, and feature engineering.
+- Evaluation of multiple models across different combinations of features.
+- Final model trained on all features achieves **~86% accuracy** with **Random Forest**.
+- Non-invasive and suitable for real-world wearable applications.
+
+## Dataset
+
+The data used comes from the [Sleep-Accelerometry Dataset](https://physionet.org/content/sleep-accel/1.0.0/), which includes synchronized heart rate, accelerometry, step count, and sleep stage labels.
 
 
 
+## Running the Project
+
+To execute the complete pipeline using all features:
+
+```bash
+python sleep_Predict.py
