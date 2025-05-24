@@ -1,0 +1,57 @@
+Features,Model,Accuracy
+Heart Rate,Random Forest,25.32
+Heart Rate,Logistic Regression,33.95
+Heart Rate,KNN,42.76
+Heart Rate,CatBoost,24.63
+Heart Rate,Linear SVM,34.01
+Heart Rate,Kernel SVM,29.24
+Heart Rate,Naive Bayes,33.52
+Heart Rate,Neural Network,25.86
+Steps,Random Forest,16.81
+Steps,Logistic Regression,15.69
+Steps,KNN,21.53
+Steps,CatBoost,18.0
+Steps,Linear SVM,14.4
+Steps,Kernel SVM,15.05
+Steps,Naive Bayes,14.23
+Steps,Neural Network,17.24
+Acceleration,Random Forest,24.05
+Acceleration,Logistic Regression,11.93
+Acceleration,KNN,22.97
+Acceleration,CatBoost,20.8
+Acceleration,Linear SVM,32.47
+Acceleration,Kernel SVM,29.62
+Acceleration,Naive Bayes,14.7
+Acceleration,Neural Network,23.77
+Acc + Steps,Random Forest,26.87
+Acc + Steps,Logistic Regression,16.27
+Acc + Steps,KNN,26.31
+Acc + Steps,CatBoost,27.62
+Acc + Steps,Linear SVM,14.55
+Acc + Steps,Kernel SVM,16.41
+Acc + Steps,Naive Bayes,15.82
+Acc + Steps,Neural Network,25.34
+Acc + HR,Random Forest,34.36
+Acc + HR,Logistic Regression,33.69
+Acc + HR,KNN,28.33
+Acc + HR,CatBoost,34.36
+Acc + HR,Linear SVM,34.64
+Acc + HR,Kernel SVM,32.19
+Acc + HR,Naive Bayes,21.06
+Acc + HR,Neural Network,23.72
+Steps + HR,Random Forest,33.28
+Steps + HR,Logistic Regression,33.02
+Steps + HR,KNN,45.1
+Steps + HR,CatBoost,32.89
+Steps + HR,Linear SVM,35.78
+Steps + HR,Kernel SVM,32.36
+Steps + HR,Naive Bayes,29.09
+Steps + HR,Neural Network,32.47
+All (HR + Steps + Acc),Random Forest,85.95
+All (HR + Steps + Acc),Logistic Regression,34.02
+All (HR + Steps + Acc),KNN,84.05
+All (HR + Steps + Acc),CatBoost,77.04
+All (HR + Steps + Acc),Linear SVM,36.60
+All (HR + Steps + Acc),Kernel SVM,45.64
+All (HR + Steps + Acc),Naive Bayes,16.79
+All (HR + Steps + Acc),Neural Network,70.24
